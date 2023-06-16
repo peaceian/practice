@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!--套用W3S的CSS(using the stylesheet from w3s.)-->
+    <!--CSS for hover color:https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_tables_hoverable2-->
+    <link href="..\web\owl.ico" rel="icon" type='image/x-icon' width='16px' height='16px'>
+    <title>無名小卒的網頁練習日常</title>
+    <style>
+        h1,caption,legend,label {color: rgb(16, 16, 16);
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;background-color:bisque;
+        border-radius:50%;border-color:rgb(18, 18, 18);}
+
+        body {background-image:url("HP pattern .png");background-repeat: repeat;background-size: 5%;width: 1200px;margin:0 auto;}
+
+        nav {text-align: center;font-size: x-large;font-family: fantasy;}
+
+        article,nav {color:white;}
+
+        header {text-align: center;}
+
+        a:link {color:floralwhite ;}
+        a:visited {color:rgb(16, 16, 16);}
+        a:hover {color:cornsilk}
+        a:active {color: orangered;}
+        #contact:target {color: yellow;}
+        #number:target {color: beige;}
+
+        .focus:focus { color:rgb(208, 208, 208);background-color: rgb(226, 104, 104);}
+        
+        select.checked option:checked {background-color: darkgreen;color: #a51890;}
+        li:nth-child(2n+1) {background-color: ghostwhite;color: dimgray;border-radius: 10px;width: fit-content;padding: 10px;letter-spacing: 0;}
+        li:nth-child(2n)   {background-color: dimgray; color: ghostwhite;border-radius: 10px;width: fit-content;padding: 10px;letter-spacing: 0;}
+        ol.i {list-style: radial-gradient(yellow, blue);}
+        img {vertical-align: bottom;}
+
+
+        
+       /*-- .nav li:nth-child(1) a{background-image: url(homepage.svg.png);}
+        .nav li:nth-child(2) a{background-image: url(list.png);}
+        .nav li:nth-child(3) a{background-image: url(lighting_bolt.png);}
+        .nav li:nth-child(4) a{background-image: url(music.png);}
+        .nav li:nth-child(5) a{background-image: url(phone.png);}
+        --*/
+
+    </style><!--全網頁CSS樣式--><!--target: href 屬性指向錨點使用 #id 的方式-->
+    
+
+</head>
+<body>
+    <header id="top"><!--設定id=top屬性-->
+        
+        <img src="C:\Users\ian\web\Harry_Potter_wordmark.svg.png" alt="Harry Potter" width="960" height="327">
+    <div style="background-color:peachpuff;">
+        <h1><mark style="color:lightcoral;font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Favorite story is like a fantasy dream.</mark></h1>
+        <p style="color:crimson; font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;font-size: larger;";><strong><em><del>Harry Potter</del></em></strong></p>
+    </div>    
+    </header>
+    
+    <p><u>Harry Potter</u></p>
+   
+    <nav>
+        <a href="#top">homepage</a><!--<a> fullname is anchor, means it could be a hyperlink.-->
+        <a href="#number">story</a>
+        <a href="#character">character</a>
+        <a href="#music">music</a>
+        <a href="#contact">contact</a>
+
+
+
+    </nav>
+    <main>
+        <article>
+            <h1 id="number">編號</h1>
+    <div style="background-color:khaki;">  
+    <ul><!--圓點編號--><!--href=hypertext reference-->
+    <li><a href="https://zh.m.wikipedia.org/zh-tw/%E5%93%88%E5%88%A9%C2%B7%E6%B3%A2%E7%89%B9" target="_blank" rel="noopener" type="html">Harry Potter Dictionary</a></li>
+    </ul>
+    <ol type="A" start=1><!--A編號 uppercase alphabet number-->
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E5%93%88%E5%88%A9%C2%B7%E6%B3%A2%E7%89%B9_(%E8%A7%92%E8%89%B2)" target="_blank">Harry Potter</a></li>
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E6%A6%AE%E6%81%A9%C2%B7%E8%A1%9B%E6%96%AF%E7%90%86" target="_blank">Ronald Weasley</a></li>
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E5%A6%99%E9%BA%97%C2%B7%E6%A0%BC%E8%98%AD%E5%82%91" target="_blanl">Hermione Granger</a></li>
+    </ol>
+        </article>
+        <section>
+        <article>
+    <ol type="a" start="1"><!--a編號 lowercase alphabet number-->
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E5%93%88%E5%88%A9%C2%B7%E6%B3%A2%E7%89%B9_(%E8%A7%92%E8%89%B2)" target="_blank">Harry Potter</a></li>
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E6%A6%AE%E6%81%A9%C2%B7%E8%A1%9B%E6%96%AF%E7%90%86" target="_blank">Ronald Weasley</a></li>
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E5%A6%99%E9%BA%97%C2%B7%E6%A0%BC%E8%98%AD%E5%82%91" target="_blank">Hermione Granger</a></li>
+    </ol>
+        </article>
+        </section>
+        <article>
+    <ol type="I" strat="1"><!--羅馬數字編號 uppercase roman number-->
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E5%93%88%E5%88%A9%C2%B7%E6%B3%A2%E7%89%B9_(%E8%A7%92%E8%89%B2)" target="_blank">Harry Potter</a></li>
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E6%A6%AE%E6%81%A9%C2%B7%E8%A1%9B%E6%96%AF%E7%90%86" target="_blank">Ronald Weasley</a></li>
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E5%A6%99%E9%BA%97%C2%B7%E6%A0%BC%E8%98%AD%E5%82%91" target="_blank">Hermione Granger</a></li>
+    </ol>
+        </article>
+        <article>
+    <ol class="i" type="i" strat="1"><!--小羅馬數字編號lowercase roman number-->
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E5%93%88%E5%88%A9%C2%B7%E6%B3%A2%E7%89%B9_(%E8%A7%92%E8%89%B2)" target="_blank">Harry Potter</a></li>
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E6%A6%AE%E6%81%A9%C2%B7%E8%A1%9B%E6%96%AF%E7%90%86" target="_blank">Ronald Weasley</a></li>
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E5%A6%99%E9%BA%97%C2%B7%E6%A0%BC%E8%98%AD%E5%82%91" target="_blank">Hermione Granger</a></li>
+    </ol>
+        </article>
+        <article>
+    <ol type="1" strat="1"><!--數字編號 number-->
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E5%93%88%E5%88%A9%C2%B7%E6%B3%A2%E7%89%B9_(%E8%A7%92%E8%89%B2)" target="_blank">Harry Potter</a></li>
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E6%A6%AE%E6%81%A9%C2%B7%E8%A1%9B%E6%96%AF%E7%90%86" target="_blank">Ronald Weasley</a></li>
+        <li><a href="https://zh.m.wikipedia.org/zh-tw/%E5%A6%99%E9%BA%97%C2%B7%E6%A0%BC%E8%98%AD%E5%82%91" target="_blank">Hermione Granger</a></li>
+    </ol>
+        </article>
+    </div>
+    <dl><!--開頭結尾 opening-->
+        <!--第一層first stage--><dt><h2><u>Absolute URLs</u></h2></dt>
+            <!--第二層 second stage--><dd><p><a href="https://www.w3.org/" target="_blank">1.W3S</a></p>
+    <dd><p><small><a href="https://www.google.com/">2.Google</small></a></p></dd>
+    <dd><p><a href="https://www.ntu.edu.tw/" style="color: brown;background-color: pink;font-family: 'Times New Roman', Times, serif;">3.National Taiwan University</a></p></dd>
+    </dl><!--結尾 end-->
+    <hr>
+    <h3>Relative URLs</h3>
+    <p style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;color:brown;background-color: pink;"><b><i><s>policy</s></i></b></p>
+    <p><a href="..\web\image1.jpg" target="_blank">政經</a></p>
+    <p><a href="/css/default.asp">CSS Tutorial</a></p>
+    <hr style="height: 2px;background-color:black">
+    <h1>Reference</h1>
+    <p style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;color: #a51890;background-color:coral">Hepatocellular carcinoma</p>
+    <p><a href="https://my.clevelandclinic.org/health/diseases/21709-hepatocellular-carcinoma-hcc" target="_blank" style="color: crimson">hepatocellular carcinoma clincal</a></p>
+    <blockquote cite="https://my.clevelandclinic.org/health/diseases/21709-hepatocellular-carcinoma-hcc" style="color:blue">Hepatocellular Carcinoma</blockquote>
+
+    <h1 id="character">預先格式化練習</h1>
+    <pre style="width: fit-content;padding: 50px;"><a href="https://www.319papago.idv.tw/holiday/2023-hr/2023_HR.html" style="font-size: larger;color: darkmagenta;background-color: deepskyblue;font-family: 'Times New Roman', Times, serif;" target="_blank">
+        Today is the first day 
+            It is called the new year
+                That is 2023
+                    Happy New Year~~</pre>
+<a href="C:\Users\ian\web\範例檔案.zip" download="範例.zip" style="padding: 50px";>下載</a>
+
+<h1>A href practice</h1>                
+    <a nofollow href="https://zh.wikipedia.org/zh-tw/%E5%90%89%E5%B2%A1%E9%87%8C%E5%B8%86" target="_blank"><img src="C:\Users\ian\web\127435.jpg" alt="吉岡里帆" style="width:300px;height:300px;"></a>
+    <a noopener href="https://zh.wikipedia.org/wiki/%E8%9B%8B%E9%BB%83%E5%93%A5" target="_blank"><img src="C:\Users\ian\web\kudetama.jpeg" type="image/jpeg" alt="kudetama"></a>
+
+<h1>sub, sup, ruby, rt, the practice</h1>    
+    <p style="color:beige">CO<sub>2</sub></p>
+    <p style="color: beige;">X<sup>2</sup></p>
+<div style="background-color:lavender;color: lightgreen;padding: 10px;margin: 10%;"><!--div將段落群組起來-->
+    <p><ruby>名前<rt>なまえ</rt></ruby></p>
+    <p><ruby>臺語<rt>Tâi-gí</rt></ruby></p><!--it will present black if has no be added the <p>.-->
+    <p><ruby><b>臺灣</b><rt><b>âi-uân</b></rt></ruby></p>
+</div><!--div範圍結尾-->
+
+<h1>picture source media, the practice</h1><!--依照視窗、螢幕大小選擇使用不同大小的照片-->
+<picture>
+    <source media="(max-width: 639px)" srcset="#")><!--最大寬度639-->
+    <source media="(min-width: 640px) and (max-width: 1023px)" srcset="#"><!--最小寬度640，最大寬度1023-->
+    <source media="(min-width: 1024px)" srcset="#"><!--最小寬度1024--><!--max-height, min-height, orientation-->
+    <img src="#" alt="Image123">     
+</picture>
+
+<h1>picture srcset, the practice</h1><!--依照裝置的不同調整選擇跟倍數照片的解析度-->
+<picture>
+    <source srcset="photo-768.png 768w, photo-768 2x"><!--w is the width of picture. x is the quality of monitor-->
+    <source srcset="photo-480.png, photo-480 2x">
+    <img src="photo.png" alt="test">
+</picture>
+<h1>type指定圖片的檔案格式練習</h1>
+<picture>
+    <source srcset="photo.webp" type="image/webp">
+    <source srcset="photo.svg" type="image/svg+xml">
+    <img src="photo.png" alt="photo">
+</picture>
+
+<h1>img srcset</h1>
+    <img srcset="photo.jpg, photo-480w.jpg 1.5x, photp-640w.jpg 2x" 
+         src="photo-640w.jpg" 
+         alt="Elva dressed as a fairy.">
+
+<h1>figure, figcaption, the practice</h1>
+<figure style="background-color: blanchedalmond;">
+    <figcaption><h1>圖片練習</h1><p>這段是廢話</p></figcaption>
+    <img src="C:\Users\ian\web\owl.png" width="300" >
+    <img src="C:\Users\ian\web\image1.jpg" width="300">
+    <figcaption>左一、左二</figcaption>
+
+</figure>
+
+<audio controls preload="auto" autoplay muted>
+    <source src="C:\Users\ian\web\Jewel-Stand.mp3" type="audio/mpeg">
+</audio><!--autoplay無法運作，muted靜音-->
+
+<audio src="C:\Users\ian\web\The Final Countdown - Europe.mp3"></audio><!--沒有屬性這段不會顯示在網頁上-->
+
+<audio src="C:\Users\ian\web\Jewel-Stand.mp3" controls></audio>
+<audio src="C:\Users\ian\web\The Final Countdown - Europe.mp3" preload="auto" controls></audio>
+<h1 id="music">video test</h1>
+<video src="C:\Users\ian\web\Vast & Hazy【食人夢 The City is Eating Me Alive】Official Lyrics Video.mp4" width="320" controls>食人夢</video>
+<h1>video source description</h1>
+<video width="320" controls poster="C:\Users\ian\web\kudetama.jpeg"><!--poster預覽圖-->
+    <source src="C:\Users\ian\web\Vast & Hazy【食人夢 The City is Eating Me Alive】Official Lyrics Video.mp4" type="video/mp4">
+    <p>瀏覽器不支援 html5 video</p>
+</video>
+
+<h1>Iframe test</h1>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/lT5lFeaInl4" title="WYS - South Pole ❄️ [lofi hip hop/relaxing beats]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/7gIFp3SN7dw" title="TIY - All The Things" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe width="640" height="480" src="https://www.youtube.com/embed/XX0TFpTfAKI" title="KING CRIMSON/SOUND EFFECT : TIME ERASE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h1>Facebook fanpage test</h1>
+<iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FDestinyNetSocial&tabs=timeline&width=500&height=300&small_header=true&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="500" height="300" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe><h1>GoogleMap test</h1>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65535.387217623844!2d121.46139767839418!3d25.063721705009076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae97023b02cf%3A0x9a40d70ba6de744a!2z5pel5pif5ZKW5ZWh5pep6aSQU3VuIFN0YXIgQ29mZmVlIEJyZWFrZmFzdA!5e0!3m2!1szh-TW!2stw!4v1673257328897!5m2!1szh-TW!2stw" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe style="border-radius:12px" src="https://open.spotify.com/embed/album/4oT4YRVe43ESrT9rx2LKCM?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+<h1>The table test</h1>
+<style>
+    table,td,th {
+        border: 2px solid black;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center; color:firebrick; box-sizing: border-box;width:400px;
+    }
+    
+</style>
+<table>
+    <caption>Blood Punnett square</caption> 
+    <tr>
+        <td style="background-color: lightgoldenrodyellow;">blood type</td>
+        <td style="background-color: darkgrey;">A</td>
+        <td style="background-color: darkgrey;">i</td>
+    </tr>
+    <tr>
+        <td style="background-color: ghostwhite;">B</td>
+        <td style="background-color: blanchedalmond;">AB</td>
+        <td style="background-color: gainsboro;">Bi</td>
+    </tr>
+    <tr>
+        <td style="background-color: ghostwhite;">i</td>
+        <td style="background-color: gainsboro;">Ai</td>
+        <td style="background-color: floralwhite;">ii</td>
+    </tr>
+</table>
+<br>
+<table>
+    <caption>攝影大賽排名</caption>
+    <tr>
+        <th>排名</th>
+        <th>姓名</th>
+        <th>作品名稱</th>
+    </tr>
+    <tr>
+        <td>第一名</td>
+        <td>王小桃</td>
+        <td>我愛台灣</td>
+    </tr>
+</table>
+<br>
+<table>
+    <caption>產品</caption>
+    <tr>
+        <th>項目</th>
+        <th colspan="2">金額</th>
+    </tr>
+    <tr>
+        <td>魔法小尖兵</td>
+        <td>$860</td>
+        <td>兩者合併可以打8折</td>
+    </tr>
+    <tr>
+        <td>五金工具車</td>
+        <td>$580</td>
+        <td></td>
+    </tr>
+</table>
+<br>
+<table>
+    <caption>產品</caption>
+    <style>
+        th {background-color: coral;color:deeppink;}
+        td {background-color: whitesmoke;}
+    </style>
+    <colgroup>
+        <col style="background-color: #c2dedd;">
+        <col style="background-color: #bbc6de;">
+        <col style="background-color: #bbdec8;">
+    </colgroup>
+    <thead style="background-color:beige;">
+    <tr>
+        <th>項目</th>
+        <th>金額</th>
+        <th>說明</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>魔法小尖兵</td>
+        <td>$860</td>
+        <td rowspan="2">兩者合併可以打8折</td>
+    </tr>
+    <tr>
+        <td>五金工具車</td>
+        <td>$580</td>
+
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr>
+        <td>總計</td>
+        <td>1440</td>
+        <td>1440*0.8=1152</td>
+    </tr>
+    </tfoot>
+</table>
+<hr>
+<h1>colgroup test</h1>
+<table><!--colgroup-col 不好用，除非表單都是直列-->
+    <caption>第一屆攝影大賽得獎名單</caption>
+    <colgroup style="background-color:cornflowerblue;"></colgroup>
+    <colgroup span="2" style="background-color:lemonchiffon;"></colgroup>
+    
+    <tr>
+        <th>排名</th>
+        <th>姓名</th>
+        <th>作品名稱</th>
+    </tr>
+    <tr>
+        <td>第一名</td>
+        <td>王小桃</td>
+        <td>我愛台灣</td>
+    </tr>
+    <tr>
+        <td>第二名</td>
+        <td>九天玄女</td>
+        <td>看見台灣的美</td>
+    </tr>
+    <tr>
+        <td>第三名</td>
+        <td>就厲害</td>
+        <td>台灣的人情味</td>
+    </tr>
+    <tr>
+        <td>第四名</td>
+        <td>徐大師</td>
+        <td>台灣的自然生態</td>
+    </tr>
+    <tr>
+        <td>第五名</td>
+        <td>陳鮭魚</td>
+        <td>台灣發大財</td>
+    </tr>
+</table>
+<br>
+<h1>colgroup test 2</h1><!--col要處理第幾列就要列出幾個col-->
+
+<table style="background-color:whitesmoke;color: darkgoldenrod;">
+    <colgroup>
+        <col >
+        <col style="background-color:antiquewhite;"><!--第二列-->
+    </colgroup>
+    
+    <tr>
+        <th rowspan="2" colspan="2">快篩測試<br>結果判斷</th>
+        
+        <th colspan="2" style="background-color:darkgrey;color:tomato;">實際狀態</th>
+        
+    </tr>
+    <tr>
+        
+        
+        <th style="background-color: tomato;color: beige;">有***</th>
+        <td style="background-color:honeydew;">無</td>
+    </tr>
+    <tr>
+        <th rowspan="2" style="background-color: cornflowerblue;color: dimgrey;">測試結果</th>
+        <td style="color:green;">陽性</td>
+        <td>真陽性</td>
+        <td style="color:fuchsia;background-color:greenyellow;">偽陽性</td>
+    </tr>
+    <tr>
+        
+        <td style="color:green;">陰性</td>
+        <th style="color:fuchsia;background-color:greenyellow;">偽陰性</th>
+        <td>真陰性   </td>
+    </tr>
+</table>
+<hr>
+<style>
+    fieldset {
+      background-color: #eeeeee;width: 200px;
+    }
+    
+    legend {
+      background-color: rgb(99, 99, 99);
+      color: rgb(23, 23, 23);
+      padding: 5px 10px;
+    }
+    
+    input {
+      margin: 5px;
+    }
+</style>
+<h1>The legend element</h1>
+<form action="/action_page.php">
+ <fieldset>
+  <legend>Personalia:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+<hr>
+<div class="w3-container">
+  <h2>Table With Different Hover Colors</h2>
+  <p>If you different hover colors, add w3-hover-<em>color</em> classes to each tr element:</p>
+
+  <table class="w3-table-all"><!--Table With Different Hover Colors from W3S-->
+    <thead>
+      <tr class="w3-light-grey w3-hover-red">
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Points</th>
+      </tr>
+    </thead>
+    <tr class="w3-hover-green">
+      <td>Jill</td>
+      <td>Smith</td>
+      <td>50</td>
+    </tr>
+    <tr class="w3-hover-blue">
+      <td>Eve</td>
+      <td>Jackson</td>
+      <td>94</td>
+    </tr>
+    <tr class="w3-hover-yellow">
+      <td>Adam</td>
+      <td>Johnson</td>
+      <td>67</td>
+    </tr>
+    <tr class="w3-hover-text-green">
+      <td>Bo</td>
+      <td>Nilson</td>
+      <td>35</td>
+    </tr>
+  </table>
+</div>
+<hr>
+<h1>label test</h1><!--label值必須要和id值相同-->
+<form>
+    <fieldset>
+        <legend>個人基本資料</legend>
+        <label for="name">姓名:</label>
+        <input type="text" id="name" required="1" placeholder="請輸入姓名">
+        <br>
+        <label for="birthday">生日:</label>
+        <input type="date" id="birthday" required="1">
+        <br>
+        <label for="address">地址:</label>
+        <input type="text" id="address" required="1" placeholder="請輸入地址">
+        <br>
+        <label for="password">密碼:</label>
+        <input type="password" id="password" required="1" size="20" maxlength="15" placeholder="請輸入密碼">
+        <br>
+        <label for="radio">性別:</label><!--二選一時用radio-->
+        <input type="radio" id="radio" value="male">男
+        <input type="radio" id="radio" value="female">女
+        <br>
+        <legend>喜愛的系統</legend>
+        <label for="checkbox">請選擇以下喜愛的選項（可複選）</label><br><!--多數選擇表單時用checkbox-->
+        <input type="checkbox" id="checkbox" value="Android">Android
+        <input type="checkbox" id="checkbox" value="iOS">iOS
+        <br>
+        <legend>購買過的蘋果智慧型手機</legend>
+        <label for="checkbox">請選擇以下曾經使用過的智慧型手機（可複選）</label><br>
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone7" name="info[]">iPhone 7
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone7+" name="info[]">iPhone 7+
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone8" name="info[]">iPhone 8
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone8+" name="info[]">iPhone 8+<br>
+        <input type="checkbox" id="checkbox" class="checked" value="iPhoneX" name="info[]">iPhone X
+        <input type="checkbox" id="checkbox" class="checked" value="iPhoneXS" name="info[]">iPhone XS
+        <input type="checkbox" id="checkbox" class="checked" value="iPhoneXR"name="info[]">iPhone XR
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone11"name="info[]">iPhone 11<br>
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone11 Pro"name="info[]">iPhone 11 Pro
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone11 Pro Max"name="info[]">iPhone 11 Pro Max
+        <input type="checkbox" id="checkbox" class="checked" value="iPhoneSE"name="info[]">iPhone SE
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone12 Mini"name="info[]">iPhone 12 Mini<br>
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone12 Pro"name="info[]">iPhone 12 Pro
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone12 Pro Max"name="info[]">iPhone 12 Pro Max
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone13 Pro"name="info[]">iPhone 13 Pro
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone13 Pro Max"name="info[]">iPhone 13 Pro Max<br>
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone14"name="info[]">iPhone 14
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone14 Plus"name="info[]">iPhone 14 Plus
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone14 Pro"name="info[]">iPhone 14 Pro
+        <input type="checkbox" id="checkbox" class="checked" value="iPhone14 Pro Max"name="info[]">iPhone14 Pro Max
+        <br>
+        <input type="reset">
+        <br>
+        <legend>請將以下要求檔案上傳</legend><br>
+        <input type="file" accept="image/*,.pdf">上傳.jepg、.png、.jpg或.pdf檔<br><!--多種類型用","分開-->
+        <input type="file" accept="audio/*">上傳音檔<br>
+        <input type="file" accept="video/*">上傳影片檔<br>
+        <input type="submit" value="提交">
+        <br>
+        <a noopener href="https://zh.m.wikipedia.org/zh-hant/IPhone" title="iphone series" target="_blank"><img src="C:\Users\ian\web\iphone14pro.svg.png" alt="iphone14pro" width="200" height="406"></a><!--use a href linkage with the img making the link web effect.-->
+        <br>
+        <input type="button" id="iphone14pro" value="iphone14pro">
+    
+    </fieldset>
+</form>
+<hr>
+<form>
+    <fieldset>
+        <legend>搜尋</legend>
+        <label for="search">輸入要搜尋的關鍵字:</label>
+        <input type="search" id="search">
+        <br>
+        <legend>日期</legend>
+        <input type="date" step="3">日期
+        <input type="time">時間<!--min, max, step, 12hhmm-->
+        <br>
+        <input type="datetime-local">年月日時分
+        <br>
+        <input type="week">週數
+        <br>
+        <input type="number" min="0" max="99999" step="1" value="0">數字<!--max means the number scrolling max number-->
+        <br>
+        <input type="range" min="0" max="10" step="1" value="0">範圍<!--the range could be though 100% and the step be division.-->
+        <br>
+        <input type="email">（EX:XXX123@mail.com）
+        <br>
+        <label for="tel">電話號碼：</label>
+        <input type="tel" id="tel" pattern="09\d{2}\d{6}" required="1"><!--正規表達式-->
+        <br>
+        <label for="url">輸入網址：</label>
+        <input type="url" id="url">
+        <br>
+        <label for="color">選擇顏色：</label>
+        <input type="color" id="color">
+        <br>
+        <textarea name="text" rows="5" cols="60" maxlength="100" minlength="50" required class="focus"></textarea><!--disable, readonly-->
+        <br>
+        <label for="iphonetype">請選擇型號：</label>
+        <br>
+        <select id="iphonetype" class="checked" multiple>
+            <optgroup label="iphone">
+            <option value="iphone11">iPhone11</option>
+            <option value="iphone12">iPhone12</option>
+            <option value="iphone13">iPhone13</option>
+            <option valur="iphone14">iPhone14</option>
+            </optgroup>
+            <optgroup label="iphone pro">
+            <option value="iphone11pro">iPhone11 Pro</option>
+            <option value="iphone12pro">iPhone12 Pro</option>
+            <option value="iphone13pro">iPhone13 Pro</option>
+            <option value="iphone14pro">iPhone14 Pro</option>
+            </optgroup>
+        </select>
+        <br>
+        <input type="submit" value="確定">
+        <br>
+    </fieldset>
+</form>
+
+<form onchange="ming.value=parseInt(a.value)*parseInt(b.value)"><!--當表單內數值改變時即發生onchange-->
+    <legend>相乘</legend>
+    <input type="number" id="a" value="50">*<input type="number" id="b" value="50">=
+    <output name="ming" for="a*b="></output>
+</form>
+<form onchange="ming.value=parseInt(a.value)+parseInt(b.value)">
+    <legend>相加</legend>
+    <input type="number" id="a" value="50">+
+    <input type="number" id="b" value="50">=
+    <output name="ming" for="a+b="></output>
+</form>
+<h1>The fieldset element + CSS</h1>
+
+<form action="/action_page.php">
+ <fieldset>
+  <legend>Personalia:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</form>
+<hr>
+<ul>
+    <li>選項一</li>
+    <li>選項二</li>
+    <li>選項三</li>
+    <li>選項四</li>
+    <li>選項五</li>
+
+</ul>
+    </main>
+<script>
+function hello() {
+    alert('Hello World');
+}
+</script>
+<noscript>
+    <p>The web browser does not service the JavaScript, please turn on the JavaScript on the setting in the web browser. </p>
+</noscript>
+<script src="script.js"></script>
+<script async src="script.js"></script><!--多個script不保證先後順序-->
+<script defer src="script.js"></script><!--文件解析完才會執行，保證先後順序-->
+<hr>
+<a href="mailto:s908322001@gmail.com" id="contact">寄信給我</a><!--開啟不了，chrome可能不支援-->
+<a href="tel:+886-2-22625666">02-22625666</a>
+<a href="#top">回到首頁</a><!--連結至id=top屬性-->
+<br>
+<br>
+</body>
+</html> 
