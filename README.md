@@ -1,2 +1,2 @@
 # practice
-the practice for elements of HTML since 12/01/2022.
+the practice for elements of HTML since 2022/12/01.
