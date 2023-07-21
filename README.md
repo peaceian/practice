@@ -1,2 +1,3 @@
 # practice
-the practice for elements of HTML since 2022/12/01.
+the practice for HTML since 2022/12/01.
+Base HTML elements training, including but no limit:<img>, <mark>,<p>,<u>,<nav>,<a>,<main>,<ul>,<li>,<ol>,<section>,<article>,<dl>,<dt>,<dd>,<small>,<s>,<del>,<i>,<em>,<b>,<strong>,<blockquote>,<pre>,<hr>,<ruby>,<rt>,<audio>,<source>,<video>,<iframe>,<table>,<th>,<tr>,<td>,<col>,<colgroup>,<thead>,<tbody>,<tfoot>,<form>,<label>,<input>,<textarea>,<select>,<option>,<optgroup>,<field>,<legend>,<output>...
